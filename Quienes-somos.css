@@ -211,6 +211,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  color: rgb(0, 0, 0) !important;
   margin: 0 auto;
   padding: 13px;
 }
@@ -237,6 +238,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
+  color: rgb(0, 0, 0) !important;
   margin: 0 auto;
   padding: 13px;
 }

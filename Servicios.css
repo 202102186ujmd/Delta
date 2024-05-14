@@ -155,7 +155,7 @@
 .u-section-2 .u-text-3 {
   font-size: 1.5rem;
   padding-left: 8px;
-  margin: 0;
+  margin: 0 1px;
 }
 
 @media (max-width: 1199px) {
@@ -401,11 +401,14 @@
 .u-section-4 .u-icon-1 {
   width: 64px;
   height: 64px;
-  margin: 34px auto 0;
+  color: rgb(0, 0, 0) !important;
+  --radius: 17px;
+  margin: 36px 143px 0 auto;
+  padding: 6px;
 }
 
 .u-section-4 .u-text-2 {
-  margin: 30px auto 0;
+  margin: 28px auto 0;
 }
 
 .u-section-4 .u-text-3 {
@@ -419,11 +422,14 @@
 .u-section-4 .u-icon-2 {
   width: 64px;
   height: 64px;
-  margin: 34px auto 0;
+  color: rgb(0, 0, 0) !important;
+  --radius: 17px;
+  margin: 36px 143px 0 auto;
+  padding: 6px;
 }
 
 .u-section-4 .u-text-4 {
-  margin: 30px auto 0;
+  margin: 28px auto 0;
 }
 
 .u-section-4 .u-text-5 {
@@ -441,11 +447,14 @@
 .u-section-4 .u-icon-3 {
   width: 64px;
   height: 64px;
-  margin: 34px auto 0;
+  color: rgb(0, 0, 0) !important;
+  --radius: 17px;
+  margin: 36px 143px 0 auto;
+  padding: 6px;
 }
 
 .u-section-4 .u-text-6 {
-  margin: 30px auto 0;
+  margin: 28px auto 0;
 }
 
 .u-section-4 .u-text-7 {
@@ -481,5 +490,17 @@
 @media (max-width: 575px) {
   .u-section-4 .u-repeater-1 {
     grid-auto-columns: 100%;
+  }
+
+  .u-section-4 .u-icon-1 {
+    margin-right: 88px;
+  }
+
+  .u-section-4 .u-icon-2 {
+    margin-right: 88px;
+  }
+
+  .u-section-4 .u-icon-3 {
+    margin-right: 88px;
   }
 }
